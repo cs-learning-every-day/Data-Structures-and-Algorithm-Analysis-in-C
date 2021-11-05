@@ -3,7 +3,8 @@
 
 #define N 100
 
-static int BinarySearch(const int elements[], int target) {
+static int 
+BinarySearch(const int elements[], int target) {
     int lo = 0, hi = N - 1;
     int mid = 0;
     // [lo, hi]
